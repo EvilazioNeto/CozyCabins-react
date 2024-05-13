@@ -1,0 +1,357 @@
+{
+    "cabanas": [
+      {
+        "id": 3,
+        "nome": "Cabana à Beira do Lago",
+        "preco": 2500,
+        "desconto_por_noite": 10,
+        "local": "Lago Sereno",
+        "avaliacao": 4.9,
+        "pay_at_hotel": true,
+        "localizacao": {
+          "local": "Lago Sereno",
+          "local_proximo": "12.5 km de Rua A"
+        },
+        "amenidades_populares": ["Caiaque", "Píer privativo", "Fogueira"],
+        "amenidades": {
+          "Basic": ["Wi-Fi", "Café da manhã", "Produtos de higiene pessoal"],
+          "Travel": [],
+          "Business_Services": [],
+          "Food_and_Beverage": [],
+          "Recreation_Facilities": ["Caiaque", "Fogueira"],
+          "Personal_Services": []
+        },
+        "descricao": "Relaxe à beira do lago nesta cabana encantadora, com acesso direto à água e uma vista serena.",
+        "quartos": [
+          {
+            "tipo": "Quarto King",
+            "caracteristicas": ["Cama king-size", "Vista para o lago", "Banheiro privativo"],
+            "inclusions": ["Café da manhã", "Produtos de higiene pessoal", "Acesso ao píer privativo"]
+          }
+        ],
+        "about_this_area": "O Lago Sereno é um paraíso para os amantes da água. Os hóspedes podem desfrutar de natação, pesca, passeios de caiaque e simplesmente relaxar à beira do lago.",
+        "whats_nearby": ["Aluguel de barcos", "Área para piquenique", "Trilhas à beira do lago"],
+        "check_in_time": "14:00",
+        "check_out_time": "11:00",
+        "imagens": {
+            "thumbnail": "img1.jpg",
+            "secundarias": [
+                "link_para_imagem_1",
+                "link_para_imagem_2",
+                "link_para_imagem_3",
+                "link_para_imagem_4",
+                "link_para_imagem_5"
+            ]
+        }
+      },
+      {
+        "id": 4,
+        "nome": "Chalé Suiço",
+        "preco": 300,
+        "desconto_por_noite": 20,
+        "local": "Costa Dourada",
+        "avaliacao": 4.7,
+        "pay_at_hotel": false,
+        "localizacao": {
+          "local": "Costa Dourada",
+          "local_proximo": "8 km de Praia B"
+        },
+        "amenidades_populares": ["Piscina privativa", "Varanda com vista para o mar", "Churrasqueira"],
+        "amenidades": {
+          "Basic": ["Wi-Fi", "Café da manhã", "Serviço de quarto 24 horas"],
+          "Travel": [],
+          "Business_Services": [],
+          "Food_and_Beverage": [],
+          "Recreation_Facilities": ["Piscina privativa", "Churrasqueira"],
+          "Personal_Services": ["Serviço de quarto 24 horas"]
+        },
+        "descricao": "Aproveite esse chalé suiço, com todas as comodidades para uma estadia luxuosa.",
+        "quartos": [
+          {
+            "tipo": "Suíte Oceanfront",
+            "caracteristicas": ["Cama king-size", "Vista panorâmica para o mar", "Banheira de hidromassagem"],
+            "inclusions": ["Café da manhã", "Serviço de quarto 24 horas", "Acesso à piscina privativa"]
+          }
+        ],
+        "about_this_area": "A Costa Dourada é famosa por suas praias de areias douradas e águas cristalinas. Os hóspedes podem desfrutar de mergulho, surf, passeios de barco e deliciosos frutos do mar frescos.",
+        "whats_nearby": ["Praia de areia dourada", "Restaurantes à beira-mar", "Passeios de barco para observação de golfinhos"],
+        "check_in_time": "15:00",
+        "check_out_time": "12:00",
+        "imagens": {
+            "thumbnail": "img2.webp",
+            "secundarias": [
+                "link_para_imagem_1",
+                "link_para_imagem_2",
+                "link_para_imagem_3",
+                "link_para_imagem_4",
+                "link_para_imagem_5"
+            ]
+        }
+      },
+      {
+        "id": 5,
+        "nome": "Cabana do Vale",
+        "preco": 150,
+        "desconto_por_noite": 5,
+        "local": "Vale Tranquilo",
+        "avaliacao": 4.6,
+        "pay_at_hotel": true,
+        "localizacao": {
+          "local": "Vale Tranquilo",
+          "local_proximo": "15 km de Montanha C"
+        },
+        "amenidades_populares": ["Hidromassagem", "Terraço com vista para o vale", "Caminhadas guiadas"],
+        "amenidades": {
+          "Basic": ["Wi-Fi","Café da manhã", "Produtos de higiene pessoal"],
+          "Travel": [],
+          "Business_Services": [],
+          "Food_and_Beverage": [],
+          "Recreation_Facilities": ["Hidromassagem"],
+          "Personal_Services": []
+        },
+        "descricao": "Escape para o sossego do vale nesta cabana isolada, perfeita para quem busca paz e serenidade.",
+        "quartos": [
+          {
+            "tipo": "Quarto Deluxe",
+            "caracteristicas": ["Cama queen-size", "Vista para o vale", "Banheiro privativo"],
+            "inclusions": ["Café da manhã", "Produtos de higiene pessoal", "Passeios guiados pelo vale"]
+          }
+        ],
+        "about_this_area": "O Vale Tranquilo é um refúgio sereno longe da agitação da cidade. Os hóspedes podem desfrutar de caminhadas tranquilas, meditação ao ar livre e observação da vida selvagem.",
+        "whats_nearby": ["Trilhas naturais", "Mirantes panorâmicos", "Sessões de yoga ao ar livre"],
+        "check_in_time": "14:00",
+        "check_out_time": "11:00",
+        "imagens": {
+            "thumbnail": "img3.jpg",
+            "secundarias": [
+                "link_para_imagem_1",
+                "link_para_imagem_2",
+                "link_para_imagem_3",
+                "link_para_imagem_4",
+                "link_para_imagem_5"
+            ]
+        }
+      },
+      {
+        "id": 6,
+        "nome": "Cabana do Deserto",
+        "preco": 180,
+        "desconto_por_noite": 0,
+        "local": "Deserto Vermelho",
+        "avaliacao": 4.4,
+        "pay_at_hotel": false,
+        "localizacao": {
+          "local": "Deserto Vermelho",
+          "local_proximo": "20 km de Oásis D"
+        },
+        "amenidades_populares": ["Piscina climatizada", "Observatório de estrelas", "Passeios de camelo"],
+        "amenidades": {
+          "Basic": ["Wi-Fi","Café da manhã"],
+          "Travel": [],
+          "Business_Services": [],
+          "Food_and_Beverage": [],
+          "Recreation_Facilities": ["Piscina climatizada", "Observatório de estrelas", "Passeios de camelo"],
+          "Personal_Services": []
+        },
+        "descricao": "Experimente a beleza e a solidão do deserto nesta cabana única, com vistas incríveis e aventuras emocionantes.",
+        "quartos": [
+          {
+            "tipo": "Cabana Tradicional",
+            "caracteristicas": ["Cama de casal", "Banheiro compartilhado", "Varanda com vista para o deserto"],
+            "inclusions": ["Café da manhã", "Passeios de camelo pelo deserto", "Observação de estrelas"]
+          }
+        ],
+        "about_this_area": "O Deserto Vermelho é conhecido por suas dunas de areia impressionantes e céus estrelados. Os hóspedes podem desfrutar de passeios de camelo, observação de estrelas e experiências culturais beduínas.",
+        "whats_nearby": ["Passeios de camelo", "Acampamento beduíno", "Observação de estrelas"],
+        "check_in_time": "15:00",
+        "check_out_time": "12:00",
+        "imagens": {
+            "thumbnail": "img4.avif",
+            "secundarias": [
+                "link_para_imagem_1",
+                "link_para_imagem_2",
+                "link_para_imagem_3",
+                "link_para_imagem_4",
+                "link_para_imagem_5"
+            ]
+        }
+      },
+      {
+        "id": 7,
+        "nome": "Cabana da Cachoeira",
+        "preco": 220,
+        "desconto_por_noite": 10,
+        "local": "Cachoeira Esmeralda",
+        "avaliacao": 4.9,
+        "pay_at_hotel": true,
+        "localizacao": {
+          "local": "Cachoeira Esmeralda",
+          "local_proximo": "5 km de Trilha E"
+        },
+        "amenidades_populares": ["Piscina natural", "Caminho para a cachoeira", "Área para churrasco"],
+        "amenidades": {
+          "Basic": ["Wi-Fi","Café da manhã"],
+          "Travel": [],
+          "Business_Services": [],
+          "Food_and_Beverage": [],
+          "Recreation_Facilities": ["Piscina natural", "Área para churrasco"],
+          "Personal_Services": []
+        },
+        "descricao": "Aprecie a beleza natural e a serenidade desta cabana à beira da cachoeira, onde cada amanhecer é mágico.",
+        "quartos": [
+          {
+            "tipo": "Suíte da Cachoeira",
+            "caracteristicas": ["Cama king-size", "Vista para a cachoeira", "Banheiro de luxo"],
+            "inclusions": ["Café da manhã", "Acesso à piscina natural", "Churrasco na área comum"]
+          }
+        ],
+        "about_this_area": "A Cachoeira Esmeralda é uma maravilha natural com águas cristalinas e paisagens exuberantes. Os hóspedes podem desfrutar de natação, trilhas cênicas e piqueniques à beira da cachoeira.",
+        "whats_nearby": ["Cachoeira Esmeralda", "Trilhas para caminhadas", "Área de piquenique"],
+        "check_in_time": "14:00",
+        "check_out_time": "11:00",
+        "imagens": {
+            "thumbnail": "img5.jpg",
+            "secundarias": [
+                "link_para_imagem_1",
+                "link_para_imagem_2",
+                "link_para_imagem_3",
+                "link_para_imagem_4",
+                "link_para_imagem_5"
+            ]
+        }
+      },
+      {
+        "id": 8,
+        "nome": "Cabana da Neve",
+        "preco": 280,
+        "desconto_por_noite": 15,
+        "local": "Montanhas Nevadas",
+        "avaliacao": 4.7,
+        "pay_at_hotel": false,
+        "localizacao": {
+          "local": "Montanhas Nevadas",
+          "local_proximo": "2 km de Estação de Esqui F"
+        },
+        "amenidades_populares": ["Banheira de hidromassagem", "Lareira a lenha", "Ski in/Ski out"],
+        "amenidades": {
+          "Basic": ["Café da manhã", "Produtos de higiene pessoal"],
+          "Travel": [],
+          "Business_Services": [],
+          "Food_and_Beverage": [],
+          "Recreation_Facilities": ["Banheira de hidromassagem", "Lareira a lenha", "Ski in/Ski out"],
+          "Personal_Services": []
+        },
+        "descricao": "Aconchegue-se junto à lareira nesta cabana encantadora, situada entre as majestosas montanhas cobertas de neve.",
+        "quartos": [
+          {
+            "tipo": "Suíte Presidencial",
+            "caracteristicas": ["Cama king-size", "Lareira privativa", "Banheira de hidromassagem"],
+            "inclusions": ["Café da manhã", "Serviço de mordomo", "Acesso direto às pistas de esqui"]
+          }
+        ],
+        "about_this_area": "As Montanhas Nevadas oferecem uma variedade de atividades de inverno, incluindo esqui, snowboard e snowshoeing. Durante o verão, os hóspedes podem fazer caminhadas, mountain bike e desfrutar de vistas panorâmicas.",
+        "whats_nearby": ["Estação de esqui", "Trilhas para caminhadas", "Restaurantes alpinos"],
+        "check_in_time": "15:00",
+        "check_out_time": "12:00",
+        "imagens": {
+            "thumbnail": "img6.jpg",
+            "secundarias": [
+                "link_para_imagem_1",
+                "link_para_imagem_2",
+                "link_para_imagem_3",
+                "link_para_imagem_4",
+                "link_para_imagem_5"
+            ]
+        }
+      },
+      {
+        "id": 9,
+        "nome": "Cabana do Rio",
+        "preco": 200,
+        "desconto_por_noite": 0,
+        "local": "Rio Sereno",
+        "avaliacao": 4.6,
+        "pay_at_hotel": false,
+        "localizacao": {
+          "local": "Rio Sereno",
+          "local_proximo": "3 km de Área de Pesca G"
+        },
+        "amenidades_populares": ["Deck privativo", "Churrasqueira à beira do rio", "Pesca"],
+        "amenidades": {
+          "Basic": ["Wi-Fi","Café da manhã"],
+          "Travel": [],
+          "Business_Services": [],
+          "Food_and_Beverage": [],
+          "Recreation_Facilities": ["Pesca"],
+          "Personal_Services": ["Churrasqueira à beira do rio"]
+        },
+        "descricao": "Relaxe ao som suave do rio nesta cabana pitoresca, onde cada momento é uma escapada tranquila.",
+        "quartos": [
+          {
+            "tipo": "Quarto Superior",
+            "caracteristicas": ["Cama queen-size", "Vista para o rio", "Banheiro privativo"],
+            "inclusions": ["Café da manhã", "Pesca no rio", "Churrasco à beira do rio"]
+          }
+        ],
+        "about_this_area": "O Rio Sereno é conhecido por suas águas calmas e cenário pitoresco. Os hóspedes podem desfrutar de pesca, canoagem e caminhadas ao longo das margens do rio.",
+        "whats_nearby": ["Pesca no rio", "Trilhas à beira do rio", "Canoagem"],
+        "check_in_time": "14:00",
+        "check_out_time": "11:00",
+        "imagens": {
+            "thumbnail": "img7.jpg",
+            "secundarias": [
+                "link_para_imagem_1",
+                "link_para_imagem_2",
+                "link_para_imagem_3",
+                "link_para_imagem_4",
+                "link_para_imagem_5"
+            ]
+        }
+      },
+      {
+        "id": 10,
+        "nome": "Cabana da Colina",
+        "preco": 190,
+        "desconto_por_noite": 5,
+        "local": "Colinas Verdejantes",
+        "avaliacao": 4.8,
+        "pay_at_hotel": true,
+        "localizacao": {
+          "local": "Colinas Verdejantes",
+          "local_proximo": "7 km de Mirante H"
+        },
+        "amenidades_populares": ["Piscina infinita", "Vista panorâmica das colinas", "Trilhas naturais"],
+        "amenidades": {
+          "Basic": ["Wi-Fi","Café da manhã"],
+          "Travel": [],
+          "Business_Services": [],
+          "Food_and_Beverage": [],
+          "Recreation_Facilities": ["Piscina infinita", "Trilhas naturais"],
+          "Personal_Services": []
+        },
+        "descricao": "Desfrute de vistas deslumbrantes e ar puro nesta cabana serena, aninhada entre as colinas verdejantes.",
+        "quartos": [
+          {
+            "tipo": "Quarto Standard",
+            "caracteristicas": ["Cama queen-size", "Varanda com vista para as colinas", "Banheiro privativo"],
+            "inclusions": ["Café da manhã", "Acesso à piscina infinita", "Trilhas naturais"]
+          }
+        ],
+        "about_this_area": "As Colinas Verdejantes são um refúgio tranquilo, perfeito para os amantes da natureza. Os hóspedes podem desfrutar de caminhadas, observação de aves e passeios pitorescos pela paisagem montanhosa.",
+        "whats_nearby": ["Trilhas naturais", "Área de piquenique", "Ponto de observação de aves"],
+        "check_in_time": "14:00",
+        "check_out_time": "11:00",
+        "imagens": {
+            "thumbnail": "img8.avif",
+            "secundarias": [
+                "link_para_imagem_1",
+                "link_para_imagem_2",
+                "link_para_imagem_3",
+                "link_para_imagem_4",
+                "link_para_imagem_5"
+            ]
+        }
+      }
+    ]
+  }
+  

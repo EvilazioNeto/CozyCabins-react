@@ -1,0 +1,120 @@
+@import '../../../styles/colors.css';
+
+.cabanaBox{
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+
+    & a{
+        display: flex;
+        width: 100%;
+        text-decoration: none;
+    }
+
+    & .thumbnail{
+        width: 250px;
+    }
+
+    & .infoCabana{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding: 1rem;
+        gap: .5rem;
+
+        & .amenitiesBox{
+            display: flex;
+            gap: 1.5rem;
+
+            & label{
+                color: var(--cor-texto);
+                cursor: pointer;
+            }
+        }
+
+        & .avaliacaoBox{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            & label{
+                font-weight: bold;
+                color: var(--cor-texto);
+                cursor: pointer;
+            }
+
+            & svg{
+                color: var(--cor-verde);
+            }
+
+            & p{
+                background-color: var(--cor-verde);
+                display: inline-block;
+                padding: .8rem 1.2rem;
+                color: #fff;
+                border-radius: 25px;
+                font-weight: bold;
+            }
+        }
+
+        & .infoLocationBox{
+            display: flex;
+            flex-direction: column;
+            gap: .25rem;
+
+            label{
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+                color: var(--cor-texto);
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            p{
+                color: gray;
+            }
+
+            & svg{
+                font-size: 1.5rem;
+            }
+        }
+
+        & .name_priceBox{
+            display: flex;
+            justify-content: space-between;
+
+            h2{
+                color: var(--cor-texto);
+            }
+
+            & img{
+                width: 100px;
+            }
+
+            & .priceBox{
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+
+                & h2{
+                    color: var(--cor-texto);
+
+                    span{
+                        font-size: 16px;
+                        color: gray;
+                        text-decoration: line-through;
+                    }
+                }
+
+                & p{
+                    color: gray;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

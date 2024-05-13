@@ -1,0 +1,64 @@
+@import '../../../styles/colors.css';
+
+.mainHome{
+    /* display: flex;
+    justify-content: center; */
+    gap: 1rem;
+    background-color: #fafafa;
+    padding: 2rem;
+
+    & article{
+        justify-content: center;
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem;
+
+        & .cabanasContainer{
+            width: 1000px;
+            min-height: 90svh;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            & .cabanasCardBox{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            & h1{
+                color: var(--cor-texto);
+            }
+
+            & .filterRatingBox{
+                display: flex;
+
+                & .selecionado{
+                    background-color: #dcdcdc;
+                }
+
+                & button{
+                    flex: 1;
+                    padding: 1rem;
+                    background-color: #fff;
+                    border: 1px solid #dcdcdc;
+                    cursor: pointer;
+                    font-weight: bold;
+                    color: gray;
+                    transition: .3s ease;
+                }
+
+                & button:hover{
+                    background-color: #dcdcdc;
+                }
+
+                & button:nth-child(2){
+                    border-left: none;
+                }
+                & button:nth-child(2){
+                    border-right: none;
+                }
+            }
+        }
+    }
+}

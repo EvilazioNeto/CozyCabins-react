@@ -52,10 +52,10 @@ function LandingPage() {
             <main id='mainContent' className={styles.mainLandingPage}>
 
                 <section className={styles.section1}>
-                    <img src="https://www.gramadohotels.com/data/Photos/OriginalPhoto/11434/1143428/1143428497/gramado-cabana-dos-pinheiros-photo-3.JPEG" alt="" />
-                    <img src="https://pousadastop.com.br/photospousadas/cabana.paraiso/3.jpg" alt="" />
-                    <img src="https://www.ecoflamegarden.com.br/cdn/shop/products/kit-puff-poltrona-com-apoio-lareira-externa-202051.jpg?v=1708112567" alt="" />
-                    <img src="https://vistasdeanita.com.br/wp-content/uploads/2022/06/vistas-de-anita-cabana-8.jpg" alt="" />
+                    <img src="/images/hoteis-landing-page/img1.jpg" alt="" />
+                    <img src="/images/hoteis-landing-page/img2.jpg" alt="" />
+                    <img src="/images/hoteis-landing-page/img4.webp" alt="" />
+                    <img src="/images/hoteis-landing-page/img3.jpg" alt="" />
                 </section>
 
                 <section className={styles.section2}>
@@ -125,7 +125,7 @@ function LandingPage() {
                                 </p>
                             </div>
                         </div>
-                        <img className={styles.fotoAmenities} src="https://www.bransonvacationcabins.com/vrp/rentals/accessible-wooded-retreat_cabin_150bww-4_1920w.jpg" alt="" />
+                        <img className={styles.fotoAmenities} src="/images/hoteis-landing-page/img5.jpg" alt="" />
                     </div>
 
                     <div className={styles.containerExperiencias}>

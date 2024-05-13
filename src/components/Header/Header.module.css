@@ -1,0 +1,64 @@
+@import '../../styles/colors.css';
+
+header {
+    background-color: var(--cor-texto);
+    padding: .8rem;
+    color: var(--bege-suave);
+    display: flex;
+    justify-content: space-between;
+
+    & .userBox {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        svg{
+            font-size: 1.5rem;
+        }
+
+        a {
+            color: var(--bege-suave);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: .25rem;
+        }
+
+        & .userImg{
+            background-color: var(--cor-laranja);
+            padding: .5rem;
+            border-radius: 50%;
+        }
+    }
+
+    & .navbar {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        & .logoBox {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            font-weight: bold;
+
+            & img {
+                width: 50px;
+            }
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            gap: 2rem;
+
+            li {
+
+                a {
+                    color: var(--bege-suave);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -18,7 +18,7 @@ function Login() {
                     <label>Forgot Password</label>
                 </div>
 
-                <Link to="/" className={styles.fazerLogin}>
+                <Link to="/home" className={styles.fazerLogin}>
                     Login
                 </Link>
                 <p className={styles.configCad}>Não tem uma conta?</p>
