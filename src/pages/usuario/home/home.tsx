@@ -7,8 +7,7 @@ import CardCabana from '../../../components/Card/Cabana/Cabana';
 
 function Home() {
     const [cabanasDB, setCabanasDB] = useState<Cabana[]>(cabanasData.cabanas);
-    const [corBtn, setCorBtn] = useState<string>('recomendação');
-
+    const [corBtn, setCorBtn] = useState<string>('recomendacao');
 
     function filtroPorAvaliacao(tipoFiltro: string) {
         if(tipoFiltro === "avaliacao"){

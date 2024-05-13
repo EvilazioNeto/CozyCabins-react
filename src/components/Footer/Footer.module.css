@@ -1,0 +1,74 @@
+@import '../../styles/colors.css';
+
+footer{
+    background-color: var(--cor-texto);
+
+    & .networkBox{
+        display: flex;
+        justify-content: space-around;
+        color: #fff;
+        align-items: center;
+        padding: .5rem;
+        background-color: var(--cor-verde);
+        font-weight: bold;
+
+        div{
+            display: flex;
+            gap: .5rem;
+        }
+
+        img{
+            width: 40px;
+            cursor: pointer;
+        }
+    }
+
+    & .footerInfo{
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+        color: var(--bege-suave);
+
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        
+            ul{
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                gap: .8rem;
+
+                li{
+                    a{
+                        color: var(--bege-suave);
+                        text-decoration: none;
+                    }
+                }
+
+                & li:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        & div:nth-child(1){
+            p{
+                max-width: 300px;
+            }
+        }
+    }
+
+    & .copyBox{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        border-top: 1px solid gray;
+        padding: 1rem;
+
+        a{
+            color: #fff;
+        }
+    }
+}

@@ -3,7 +3,7 @@
       {
         "id": 3,
         "nome": "Cabana à Beira do Lago",
-        "preco": 2500,
+        "preco": 350,
         "desconto_por_noite": 10,
         "local": "Lago Sereno",
         "avaliacao": 4.9,
