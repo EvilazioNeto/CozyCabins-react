@@ -1,0 +1,117 @@
+.paginaCabanaContainer{
+    padding: 2rem;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    article{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #fff;
+        padding: 1rem;
+        width: 100%;
+        max-width: 1200px;
+        box-shadow: 0px 0px 5px #dcdcdc;
+        color: var(--cor-texto);
+
+        & .apresentacaoCabinBox{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: .5rem;
+
+            & .priceBox{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                }
+
+                & button{
+                    border: 1px solid var(--cor-laranja);
+                    color: #fff;
+                    font-weight: bold;
+                    background-color: var(--cor-laranja);
+                    padding: .8rem 1.5rem;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: .3s ease;
+                }
+
+                & button:hover{
+                    background-color: white;
+                    color: var(--cor-texto);
+                }
+
+                & h2{
+                    color: var(--cor-texto);
+
+                    span{
+                        font-size: 16px;
+                        color: gray;
+                        text-decoration: line-through;
+                    }
+                }
+
+                & p{
+                    color: gray;
+                    font-size: 14px;
+                }
+            }
+
+            & .labelLocation{
+                display: flex;
+                gap: .5rem;
+            }
+
+            & .nomeBox{
+                display: flex;
+                gap: .5rem;
+                align-items: center;
+
+                & img{
+                    width: 100px;
+                }
+
+                p{
+                    background-color: var(--cor-verde);
+                    color: #fff;
+                    padding: .5rem 1rem;
+                    border-radius: 25px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        & .thumbnailGallery{
+            display: flex;
+            gap: 1rem;
+            
+            .mainThumbnail{
+                width: calc(700px - .5rem);
+
+                & img{
+                    width: 100%;
+                }
+            }
+
+            .sidePhotos{
+                width: calc(500px - .5rem);
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: .5rem;
+
+                & img{
+                    width: 233.33px;
+                    height: calc(233.33px - 1rem);
+                }
+            }
+        }
+    }
+}

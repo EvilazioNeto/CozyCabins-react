@@ -36,11 +36,15 @@
         "imagens": {
             "thumbnail": "img1.jpg",
             "secundarias": [
-                "link_para_imagem_1",
-                "link_para_imagem_2",
-                "link_para_imagem_3",
-                "link_para_imagem_4",
-                "link_para_imagem_5"
+                "img1.jpg",
+                "img2.jpg",
+                "img3.jpg",
+                "img4.jpg",
+                "img5.jpg",
+                "img6.jpg",
+                "img7.jpg",
+                "img8.jpg",
+                "img9.jpg"
             ]
         }
       },
@@ -80,11 +84,13 @@
         "imagens": {
             "thumbnail": "img2.webp",
             "secundarias": [
-                "link_para_imagem_1",
-                "link_para_imagem_2",
-                "link_para_imagem_3",
-                "link_para_imagem_4",
-                "link_para_imagem_5"
+                "img10.jpg",
+                "img11.jpg",
+                "img12.jpg",
+                "img13.jpg",
+                "img14.webp",
+                "img15.jpg",
+                "img16.jpg"
             ]
         }
       },
@@ -124,11 +130,13 @@
         "imagens": {
             "thumbnail": "img3.jpg",
             "secundarias": [
-                "link_para_imagem_1",
-                "link_para_imagem_2",
-                "link_para_imagem_3",
-                "link_para_imagem_4",
-                "link_para_imagem_5"
+                "img17.jpg",
+                "img18.jpg",
+                "img19.jpg",
+                "img20.jpg",
+                "img21.jpg",
+                "img22.jpg",
+                "img23.jpg"
             ]
         }
       },
@@ -168,11 +176,12 @@
         "imagens": {
             "thumbnail": "img4.avif",
             "secundarias": [
-                "link_para_imagem_1",
-                "link_para_imagem_2",
-                "link_para_imagem_3",
-                "link_para_imagem_4",
-                "link_para_imagem_5"
+                "img24.webp",
+                "img25.jpg",
+                "img26.jpg",
+                "img27.jpg",
+                "img28.webp",
+                "img29.webp"
             ]
         }
       },
@@ -212,11 +221,12 @@
         "imagens": {
             "thumbnail": "img5.jpg",
             "secundarias": [
-                "link_para_imagem_1",
-                "link_para_imagem_2",
-                "link_para_imagem_3",
-                "link_para_imagem_4",
-                "link_para_imagem_5"
+                "img30.webp",
+                "img31.webp",
+                "img32.webp",
+                "img33.webp",
+                "img34.jpg",
+                "img35.avif"
             ]
         }
       },
@@ -256,11 +266,12 @@
         "imagens": {
             "thumbnail": "img6.jpg",
             "secundarias": [
-                "link_para_imagem_1",
-                "link_para_imagem_2",
-                "link_para_imagem_3",
-                "link_para_imagem_4",
-                "link_para_imagem_5"
+                "img36.webp",
+                "img37.webp",
+                "img38.webp",
+                "img39.webp",
+                "img40.jpg",
+                "img41.webp"
             ]
         }
       },
@@ -300,11 +311,12 @@
         "imagens": {
             "thumbnail": "img7.jpg",
             "secundarias": [
-                "link_para_imagem_1",
-                "link_para_imagem_2",
-                "link_para_imagem_3",
-                "link_para_imagem_4",
-                "link_para_imagem_5"
+                "img42.jpg",
+                "img43.jpg",
+                "img44.jpg",
+                "img45.jpg",
+                "img46.jpg",
+                "img47.jpg"
             ]
         }
       },
@@ -344,11 +356,12 @@
         "imagens": {
             "thumbnail": "img8.avif",
             "secundarias": [
-                "link_para_imagem_1",
-                "link_para_imagem_2",
-                "link_para_imagem_3",
-                "link_para_imagem_4",
-                "link_para_imagem_5"
+                "img48.jpg",
+                "img49.jpg",
+                "img50.jpg",
+                "img51.jpg",
+                "img52.jpg",
+                "img53.jpg"
             ]
         }
       }

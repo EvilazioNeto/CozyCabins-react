@@ -11,7 +11,7 @@ interface CabanaProps {
 function CardCabana({ cabana }: CabanaProps) {
     return (
         <div className={styles.cabanaBox}>
-            <Link to="/home">
+            <Link to={`/${cabana.nome}`}>
                 <img className={styles.thumbnail} src={`/cabanas/thumbnail/${cabana.imagens.thumbnail}`} alt="" />
                 <div className={styles.infoCabana}>
                     <div className={styles.name_priceBox}>
