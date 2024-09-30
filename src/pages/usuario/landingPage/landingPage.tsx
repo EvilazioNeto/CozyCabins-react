@@ -130,11 +130,7 @@ function LandingPage() {
 
                     <div className={styles.containerExperiencias}>
                         <div className={styles.slideExperiencia}>
-                            <img className={styles.arrasteAqui} src="https://app.tisaude.com/c/site/11444_arraste%20(1).gif" alt="" />
-                            <img className={styles.fotoExperiencias} src="/images/passeio.jpg" alt="" />
                             <img className={styles.fotoExperiencias} src="/images/trilha.jpg" alt="" />
-                            <img className={styles.fotoExperiencias} src="/images/pesca_resized_resized.jpg" alt="" />
-                            <img className={styles.fotoExperiencias} src="/images/fogueira_resized.avif" alt="" />
                         </div>
                         <div className={styles.detailExperiencias}>
                             <h3><FontAwesomeIcon icon={faMedal} /> Experiências da Hospedagem</h3>
@@ -200,7 +196,7 @@ function LandingPage() {
                     <div className={styles.containerAvaliacao}>
                         <div className={styles.avaliacao}>
                             <div className={styles.user}>
-                                <h4>Leo Messi</h4>
+                                <h4>Bruno Rodrigues</h4>
                                 <img src="/images/avaliacao/messi.jpg" alt="" />
                             </div>
                             <div className={styles.stars}>
@@ -217,7 +213,7 @@ function LandingPage() {
                         </div>
                         <div className={styles.avaliacao}>
                             <div className={styles.user}>
-                                <h4>Toni Kross</h4>
+                                <h4>Gabriel Antônio</h4>
                                 <img src="/images/avaliacao/toni.jpg" alt="" />
                             </div>
                             <div className={styles.stars}>
@@ -234,7 +230,7 @@ function LandingPage() {
                         </div>
                         <div className={styles.avaliacao}>
                             <div className={styles.user}>
-                                <h4>Arrascaeta</h4>
+                                <h4>Lucas Silvestre</h4>
                                 <img src="/images/avaliacao/Arrasca.webp" alt="" />
                             </div>
                             <div className={styles.stars}>
@@ -251,7 +247,7 @@ function LandingPage() {
                         </div>
                         <div className={styles.avaliacao}>
                             <div className={styles.user}>
-                                <h4>Gabriel B.</h4>
+                                <h4>Denis Furtado</h4>
                                 <img src="/images/avaliacao/gabigol.webp" alt="" />
                             </div>
                             <div className={styles.stars}>
